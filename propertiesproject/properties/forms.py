@@ -1,6 +1,20 @@
 from django import forms
 
-from .models import Property
+from .models import Property, PROPERTY_TYPES
+
+
+ANY = 'ANY'
+
+PROPERTY_TYPES.append((ANY, 'Any'))
+
+class QueryProperty(forms.Form):
+    location = forms.CharField(max_length=200)
+    min_price = forms.IntegerField()
+    max_price = forms.IntegerField()
+    property_type = forms.ChoiceField(
+        choices=PROPERTY_TYPES,
+    )
+    bedrooms = forms.IntegerField()
 
 
 class PostProperty(forms.ModelForm):

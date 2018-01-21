@@ -5,23 +5,23 @@ class SharedOwnershipScheme(models.Model):
     pass
 
 
-class Property(models.Model):
-    # Property type choices
-    FLAT_APARTMENT = 'FLAT_APARTMENT'
-    HOUSE = 'HOUSE'
-    BUNGALOW = 'BUNGALOW'
-    FARM_LAND = 'FARM_LAND'
-    COMMERCIAL_PROPERTY = 'COMMERCIAL_PROPERTY'
-    OTHER = 'OTHER'
-    PROPERTY_TYPES = (
-        (FLAT_APARTMENT, 'Flat / Apartment'),
-        (HOUSE, 'House'),
-        (BUNGALOW, 'Bungalow'),
-        (FARM_LAND, 'Farm / Land'),
-        (COMMERCIAL_PROPERTY, 'Commercial Property'),
-        (OTHER, 'Other')
-    )
+FLAT_APARTMENT = 'FLAT_APARTMENT'
+HOUSE = 'HOUSE'
+BUNGALOW = 'BUNGALOW'
+FARM_LAND = 'FARM_LAND'
+COMMERCIAL_PROPERTY = 'COMMERCIAL_PROPERTY'
+OTHER = 'OTHER'
+PROPERTY_TYPES = [
+    (FLAT_APARTMENT, 'Flat / Apartment'),
+    (HOUSE, 'House'),
+    (BUNGALOW, 'Bungalow'),
+    (FARM_LAND, 'Farm / Land'),
+    (COMMERCIAL_PROPERTY, 'Commercial Property'),
+    (OTHER, 'Other'),
+]
 
+
+class Property(models.Model):
     # Address
     id = models.AutoField(primary_key=True)
     address = models.CharField(max_length=200)
