@@ -4,7 +4,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 from .forms import PostProperty
-from .models import Property
 
 log = logging.getLogger(__name__)
 
@@ -18,9 +17,7 @@ def property_add(request):
     if request.method == 'POST':
         form = PostProperty(request.POST)
         if form.is_valid():
-            log.debug(form.cleaned_data)
-            property = Property.objects.create(**form.cleaned_data)
-            property.save()
+            form.save()
             return HttpResponse('thanks!')
     else:
         form = PostProperty()
