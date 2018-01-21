@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGIN_REDIRECT_URL = 'home'
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
