@@ -14,6 +14,10 @@ def index(request):
         form = QueryProperty(request.POST)
         if form.is_valid():
             form_values = form.cleaned_data
+            # Obviously this is not going to work, so factor
+            # out a function to prepare queries depending
+            # on what parameters are present and what do they say
+            # watchful with property type "Any".
             properties = Property.objects.filter(
                 price__gte=form_values['min_price'],
                 price__lte=form_values['max_price'],

@@ -1,0 +1,153 @@
+[
+{
+  "model": "properties.property",
+  "pk": 2,
+  "fields": {
+    "address": "Liverpool Street",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "XXX XXX",
+    "price": 777000.88,
+    "num_bedrooms": 2,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T14:36:25.490Z",
+    "added_by": "Good Agents",
+    "shared_ownership_scheme": "1",
+    "new_development": "No",
+    "size_sq_ft": 55.0,
+    "size_sq_m": 55.0
+  }
+},
+{
+  "model": "properties.property",
+  "pk": 3,
+  "fields": {
+    "address": "Farringdon Road",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "XXX XXX",
+    "price": 1000000.55,
+    "num_bedrooms": 2,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T14:37:12.371Z",
+    "added_by": "Stone Agents",
+    "shared_ownership_scheme": "1",
+    "new_development": "No",
+    "size_sq_ft": 66.2,
+    "size_sq_m": 66.2
+  }
+},
+{
+  "model": "properties.property",
+  "pk": 4,
+  "fields": {
+    "address": "Canary Wharf",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "XXX XXXX",
+    "price": 3000000.55,
+    "num_bedrooms": 1,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T14:37:16.241Z",
+    "added_by": "Haart",
+    "shared_ownership_scheme": "1",
+    "new_development": "Yes",
+    "size_sq_ft": 15.2,
+    "size_sq_m": 15.2
+  }
+},
+{
+  "model": "properties.property",
+  "pk": 5,
+  "fields": {
+    "address": "Wimbledon",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "XXX XXX",
+    "price": 555666.8,
+    "num_bedrooms": 3,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T14:37:20.330Z",
+    "added_by": "Storm Agents",
+    "shared_ownership_scheme": "1",
+    "new_development": "No",
+    "size_sq_ft": 55.5,
+    "size_sq_m": 55.5
+  }
+},
+{
+  "model": "properties.property",
+  "pk": 6,
+  "fields": {
+    "address": "Camdem",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "",
+    "price": 800000.0,
+    "num_bedrooms": 1,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T15:00:23.055Z",
+    "added_by": "Slash Agents",
+    "shared_ownership_scheme": "1",
+    "new_development": "Yes",
+    "size_sq_ft": 55.5,
+    "size_sq_m": 55.5
+  }
+},
+{
+  "model": "properties.property",
+  "pk": 7,
+  "fields": {
+    "address": "Kingston Upon Thames",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "XXX XXX",
+    "price": 1000000.0,
+    "num_bedrooms": 2,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T15:01:04.408Z",
+    "added_by": "Motherfucker",
+    "shared_ownership_scheme": "1",
+    "new_development": "Yes",
+    "size_sq_ft": 55.5,
+    "size_sq_m": 55.5
+  }
+},
+{
+  "model": "properties.property",
+  "pk": 8,
+  "fields": {
+    "address": "Twickenham",
+    "city": "London",
+    "country": "United Kingdom",
+    "postal_code": "XXX XXX",
+    "price": 2000000.0,
+    "num_bedrooms": 3,
+    "property_type": "FLAT_APARTMENT",
+    "added_date": "2018-01-21T15:09:16.792Z",
+    "added_by": "Surprise!",
+    "shared_ownership_scheme": "1",
+    "new_development": "No",
+    "size_sq_ft": 55.5,
+    "size_sq_m": 55.5
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$8DUxk2qIOd2W$ZJG/ztYDwAdhsmbjAwrPzuXKkCj2i3nlfz9SdtzLQ4A=",
+    "last_login": "2018-01-21T15:57:19.759Z",
+    "is_superuser": false,
+    "username": "carlos",
+    "first_name": "Carlos",
+    "last_name": "Fitzgerald",
+    "email": "carlos@carlos.carlos",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-01-21T15:51:27.538Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
